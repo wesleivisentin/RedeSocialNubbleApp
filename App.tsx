@@ -7,7 +7,9 @@ import { Text } from './src/components/Text/Text';
 function App() {
   return (
     <SafeAreaProvider> 
-      <Text preset='headingLarge'>|Coffestack</Text>
+      <Text italic bold preset='headingLarge' >|Coffestack #€´∑ß∂´</Text>
+      <Text preset='headingLarge' >|Coffestack #€´∑ß∂´</Text>
+      <Text preset='headingMedium'>|Coffestack #€´∑ß∂´</Text>
     </SafeAreaProvider>
   );
 }
